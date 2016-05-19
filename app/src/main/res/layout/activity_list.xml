@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:background="@color/green"
+    tools:context="edu.sdsu.cs.cs646.assign4.ListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectUser"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/userArray"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/showListButton"
+                android:text="@string/showList"
+                android:layout_weight="0.5"
+                android:layout_marginTop="10dp"
+                android:background="@color/accent_material_light"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/showMapButton"
+                android:text="@string/showMap"
+                android:layout_weight="0.5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/accent_material_light"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragmentContainer"
+            android:background="@color/green">
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Assign4</string>
+
+    <string name="title">S-POTHOLES</string>
+    <string name="post">Report a Pothole</string>
+    <string name="get">Show Potholes</string>
+
+
+    <string name="reportTitle">You can report a PotHole here.</string>
+    <string name="click">Click</string>
+    <string name="gallery">Go To Gallery</string>
+    <string name="description">Enter Description</string>
+    <string name="contentDesc">Pothole Image</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+
+    <string name="confirmationPg">Confirmation</string>
+    <string name="confirmationTitle">The following information has been uploaded: </string>
+    <string name="userLabel">User</string>
+    <string name="imageLabel">Image</string>
+    <string name="done">DONE</string>
+
+    <string name="showList">List View</string>
+    <string name="showMap">Map View</string>
+    <string name="selectUser">Select User : </string>
+    <string-array name="userArray">
+        <item>SDSU_033</item>
+        <item>All Users</item>
+    </string-array>
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="detailDescLabel">Detailed Description of Pothole</string>
+    <string name="descLabel">Description</string>
+    <string name="locationLabel">Location</string>
+    <string name="backButton">Back</string>
+
+    <string name="mapApiKey">AIzaSyCqDFEa-QcOTljSFnUgryGgqIpuOGJKtqE</string>
+
+
+</resources>
